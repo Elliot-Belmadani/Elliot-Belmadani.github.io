@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Elliot Belmadani</title>
+</head>
+<body id="body">
+    <div class="navbar">
+        <p>Elliot Belmadani</p>
+        <div class="right">
+            <a href="#landing-page">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <button onclick="toggleTheme()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+        </div>
+        <div class="right-screen-size">
+            <button onclick="toggleTheme()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button>
+            <button onclick="toggleNavbar()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+        </div>
+        
+    </div>
+    <div class="navbar-toggle" id="nav">
+        <ul>
+            <li><a href="#landing-page">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </div>
+    <div class="landing-page" id="landing-page">
+        <img src="hand.png" width="50px" style="margin: 20px;">
+        <h1>Hey, i'm <span>Elliot</span></h1>
+        <br>
+        <h1>14 year old</h1>
+        <br>
+        <h1 id="Typewriter"></h1>
+    </div>
+
+    <div class="wrapper" id='about' >
+        <div class="about-me">
+            <div class="top">
+                <h1>About me</h1>
+                <h2>My intro</h2>
+            </div>
+            
+            <div class="bottom">
+                Hello, my name is Elliot Belmadani. I'm a 15 year old web developer and UI/UX Designer.
+                Ive been coding websites for over 4 years now.
+                <br>
+                <br>
+                Now I've started developing complex web apps with React / Svelte / Tailwindcss and many other technologies.
+                I also started creating mobile apps with React native and SwiftUI.
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="wrapper" id="services">
+        <div class="services">
+            <div class="top">
+                <h1>Services</h1>
+                <h2>My services</h2>
+            </div>
+            
+            <div class="bottom">
+                <div class="section">
+                    <h3>Frontend Development</h3>
+                    <p>I design and develop responsive websites with frameworks like react</p>
+                </div>
+                <div class="section">
+                    <h3>UI/UX Design</h3>
+                    <p>I create beautiful, simple and clean designs.</p>
+                </div>
+                <div class="section">
+                    <h3>Mobile Development</h3>
+                    <p>I create cross-platform mobile applications using dart/flutter or React Native</p>
+                </div>
+                <div class="section">
+                    <h3>Backend Development</h3>
+                    <p>I make rest-apis with js and python, using MySQL, MongoDB or Firebase</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+
+    <div class="footer">
+        Copyright ©  Elliot Belmadani 2022
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
