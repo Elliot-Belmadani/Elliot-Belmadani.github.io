@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elliot Belmadani</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="about-styles.css">
+    <link rel="stylesheet" href="main-section.css">
+    <link rel="stylesheet" href="skill-section.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <h1>Elliot Belmadani</h1>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skill-section">Skills</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-section" id="home" data-aos="zoom-out">
+        <h2>Hey, I'm Elliot</h2>
+        <h1>Developer</h1>
+        <button class="contact">
+            Contact me
+        </button>
+
+    </div> 
+
+    <div class="about-section" id="about">
+        <h1>About me</h1>
+        <h2>My introduction</h2>
+
+        <div class="flex-grid">
+            <img src="pf.jpg" data-aos="zoom-in-up" data-aos-duration="1500" height="350px">
+            <div class="right-column" data-aos="fade-left" data-aos-duration="2000">
+                <p>Web developer with extensive knowlledge and years of experience with web technologies and UI design</p>
+
+                <div class="experience-wrapper">
+                    <div class="box">
+                        <h3>06</h3>
+                        <h4>Years <br>experience</h4>
+                    </div>
+                    <div class="box">
+                        <h3>20</h3>
+                        <h4>Completed <br>projects</h4>
+                    </div>
+                    <div class="box">
+                        <h3>10</h3>
+                        <h4>Team <br>projects</h4>
+                    </div>
+
+                </div>
+                <button class="contact">Contact me</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="skill-section" id="skill-section">
+       <div class="left-column fade-right" data-aos="zoom-out-up">
+           <h1>Frontend</h1>
+
+           <div class="skill">
+               <div class="label">
+                   <p>Javascript</p>
+                   <p>86%</p>
+               </div>
+               <span class="skill-bar" style="width: 86%"></span>
+           </div>
+
+           <div class="skill">
+            <div class="label">
+                <p>React</p>
+                <p>57%</p>
+            </div>
+            <span class="skill-bar" style="width: 57%"></span>
+        </div>
+
+        <div class="skill">
+            <div class="label">
+                <p>HTML / CSS</p>
+                <p>99%</p>
+            </div>
+            <span class="skill-bar" style="width: 99%"></span>
+        </div>
+
+        <div class="skill">
+            <div class="label">
+                <p>Svelte</p>
+                <p>90%</p>
+            </div>
+            <span class="skill-bar" style="width: 90%"></span>
+        </div>
+        <div class="skill">
+            <div class="label">
+                <p>Tailwindcss</p>
+                <p>97%</p>
+            </div>
+            <span class="skill-bar" style="width: 97%"></span>
+        </div>
+
+        
+       </div>
+
+
+       <div class="right-column" data-aos="zoom-out-up">
+        <h1>Backend</h1>
+
+        <div class="skill">
+            <div class="label">
+                <p>Nodejs</p>
+                <p>90%</p>
+            </div>
+            <span class="skill-bar" style="width: 90%"></span>
+        </div>
+
+        <div class="skill">
+         <div class="label">
+             <p>Express</p>
+             <p>70%</p>
+         </div>
+         <span class="skill-bar" style="width: 70%"></span>
+     </div>
+
+     <div class="skill">
+         <div class="label">
+             <p>Flask</p>
+             <p>100%</p>
+         </div>
+         <span class="skill-bar" style="width: 100%"></span>
+     </div>
+
+     <div class="skill">
+         <div class="label">
+             <p>SQL/MongoDB</p>
+             <p>90%</p>
+         </div>
+         <span class="skill-bar" style="width: 90%"></span>
+     </div>
+
+     <div class="skill">
+        <div class="label">
+            <p>Firebase</p>
+            <p>60%</p>
+        </div>
+        <span class="skill-bar" style="width: 60%"></span>
+    </div>
+
+     
+    </div>
+
+    </section>
+    
+
+    <script src="index.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <footer>
+        <p>Copyright (c) Elliot Belmadani</p>
+    </footer>
+</body>
+</html>
