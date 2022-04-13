@@ -29,8 +29,8 @@ footer {
 
 .contact {
     display: grid;
-    place-content: center;
-    text-decoration: none;
+    place-content: center !important;
+    text-decoration: none !important;
 }
 
 @media screen and (max-width: 350px) {
