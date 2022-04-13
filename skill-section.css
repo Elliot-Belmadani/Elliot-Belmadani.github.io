@@ -1,0 +1,71 @@
+.skill-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    min-height: 600px;
+    background-color: #fff;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.skill-section .left-column {
+    width: 50%;
+}
+.skill-section .left-column h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.skill-section .left-column .skill {
+    margin-top: 20px;
+}
+.skill-section .left-column .skill .label {
+    display: flex;
+    justify-content: space-between;
+}
+.skill-section .left-column .skill .label p {
+    font-size: 1.5rem;
+}
+.skill-section .left-column .skill .skill-bar {
+    display: block;
+    background-color: #ff0051;
+    height: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+.skill-section .right-column {
+    width: 50%;
+}
+.skill-section .right-column h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.skill-section .right-column .skill {
+    margin-top: 20px;
+}
+.skill-section .right-column .skill .label {
+    display: flex;
+    justify-content: space-between;
+}
+.skill-section .right-column .skill .label p {
+    font-size: 1.5rem;
+}
+.skill-section .right-column .skill .skill-bar {
+    display: block;
+    background-color: #ff0051;
+    height: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 820px) {
+    .skill-section {
+        grid-template-columns: 100%;
+    }
+}
