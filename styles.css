@@ -28,9 +28,12 @@ footer {
 }
 
 .contact {
-    display: grid;
+    display: flex;
     place-content: center !important;
     text-decoration: none !important;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 @media screen and (max-width: 350px) {
