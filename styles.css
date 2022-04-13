@@ -11,6 +11,8 @@ body {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 
@@ -23,4 +25,30 @@ footer {
     color: #fff;
     font-family: 'Inter', sans-serif;
 
+}
+
+.contact {
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 350px) {
+    .flex-grid img {
+        height: 300px !important;
+    }
+    .flex-grid .right-column .experience-wrapper .box h3 {
+        font-size: 1.5rem !important;
+    }
+    .flex-grid .right-column .experience-wrapper .box h4 {
+        font-size: 1rem !important;
+        font-weight: normal;
+    }
+    .flex-grid .right-column .experience-wrapper .box {
+        margin: 10px !important;
+    }
+    /* .flex-grid .right-column .experience-wrapper {
+        display: grid;
+        grid-template-columns: 100% !important;
+    } */
 }
