@@ -1,0 +1,44 @@
+@media only screen and (max-width: 910px) {
+    .nav-wrapper .middle-nav li {
+        font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 870px) {
+    .nav-wrapper {
+        justify-content: center;
+    }
+    .nav-wrapper .middle-nav li {
+        display: none;
+    }
+    .nav-wrapper .right-nav{
+        display: none;
+    }
+    .exp .container .wrapper .sessions li h2 {
+        font-size: 1.3rem;
+    }
+    .content .about-me {
+        padding: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .content .card-me {
+        border: none;
+    }
+    .content .skills h1 {
+        text-align: center;
+    }
+    .content .exp h1 {
+        text-align: center;
+    }
+    .content .about-me h1 {
+        text-align: center;
+    }
+    .content .timeline-wrap h1 {
+        text-align: center;
+    }
+    .content footer {
+        max-width: 15rem;
+    }
+  }
+  
